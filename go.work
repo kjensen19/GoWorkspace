@@ -1,0 +1,10 @@
+go 1.19
+
+use (
+	./example
+	./hello
+)
+
+// The go directive tells Go which version of Go the file should be interpreted with.
+// It’s similar to the go directive in the go.mod file.
+// The use directive tells Go that the module in the hello directory should be main modules when doing a build.
